@@ -1,0 +1,25 @@
+.Navbar {
+  height: 80px;
+  width: 100vw;
+  background-color: #fdfdfd;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 40px;
+  font-size: 22px;
+}
+
+.Navbar a {
+  text-decoration: none;
+  color: black;
+}
+
+.Navbar__links {
+  display: flex;
+  gap: 30px;
+}
+
+.Navbar__search-cart {
+  display: flex;
+  gap: 30px;
+}
