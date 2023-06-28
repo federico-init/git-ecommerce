@@ -1,0 +1,25 @@
+.Hero {
+  height: calc(100vh - 80px);
+  width: 100vw;
+  position: relative;
+}
+
+.Hero img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.Hero button {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  padding: 15px;
+  font-size: 30px;
+  border: none;
+  border-radius: 40px;
+  text-transform: uppercase;
+  background: black;
+  color: #fdfdfd;
+}
